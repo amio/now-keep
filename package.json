@@ -1,0 +1,20 @@
+{
+  "name": "now-keep",
+  "version": "1.0.0",
+  "description": "Keep now app alive.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": "amio/now-keep",
+  "author": "Amio <amio.cn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "micro": "^7.0.6"
+  },
+  "now": {
+    "alias": "keep"
+  }
+}
